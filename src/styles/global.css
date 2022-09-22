@@ -27,4 +27,5 @@ body, input, button {
    font-family: "Inter", sans-serif;
    color: var(--gray-100);
    line-height: 1.4;
+   -webkit-font-smoothing: antialiased;
 }

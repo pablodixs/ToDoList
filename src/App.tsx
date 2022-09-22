@@ -1,13 +1,13 @@
 import { Header } from './components/Header';
+import { TaskList } from './components/TaskList';
 
 import './styles/global.css';
-import { TextArea } from './components/TextArea';
 
 export function App() {
   return (
-    <div>
+    <div> 
       <Header />
-      <TextArea />
+      <TaskList/>
     </div>
   )
 }
